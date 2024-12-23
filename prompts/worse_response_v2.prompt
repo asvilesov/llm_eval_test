@@ -1,0 +1,17 @@
+Below is a conversation between a user and an AI Assistant. 
+
+[The start of User Question]
+{input}
+[The end of User Question]
+
+[The start of Assistant's Answer]
+{generation}
+[The end of Assistant's Answer]
+
+Please generate a modified instruction, [User Question], that is highly relevant but not semantically identical to the instruction above from the user. 
+Make sure that a potential answer to the instruction would be highly relevant to the answer above but not semantically identical.
+IMPORTANT: Please only generate the modified instruction below and DO NOT answer it using the format below:
+
+[The start of User Question]
+<put generated modified question here>
+[The end of User Question]
