@@ -1,0 +1,117 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode and other IDE specific files
+.vscode/
+.idea/
+
+# PyCharm specific files
+*.iml
+*.iws
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/**/shelf/
+
+# Pytest
+.cache/
+*.pytest_cache
+
+# Machine learning specific artifacts
+logs/
+results/
+outputs/
+*.h5
+*.hdf5
+*.ckpt
+*.onnx
+*.tflite
+*.pb
+
+# Hugging Face model files
+*.bin
+*.json
+*.pt
+*.model
+*.safetensors
+runs/
+saved_models/
+cache/
+huggingface/
+hf_cache/
+transformers_cache/
+
+# TensorBoard
+events.out.tfevents.*
+
+# Data and data artifacts
+data/
+datasets/
+*.csv
+*.tsv
+*.npz
+*.pkl
+*.joblib
+*.dill
+*.log
+*.txt
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Temp files
+*.tmp
+*.temp
+*.log
+*.~*
+
+# Ignore large files (optional)
+*.tar.gz
+*.zip
+*.tar
+*.7z
+*.rar
+*.bz2
+*.xz
+
+# Secrets
+*.env
+.env.*
+config.json
+credentials.json
+
