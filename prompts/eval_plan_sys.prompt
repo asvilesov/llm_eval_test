@@ -1,0 +1,10 @@
+[User Question]
+{input}
+
+[The Start of Assistant A's Answer]
+{generation}
+[The End of Assistant A's Answer]
+
+[The Start of Assistant B's Answer]
+{generation2}
+[The End of Assistant B's Answer]

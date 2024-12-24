@@ -75,6 +75,9 @@ transformers_cache/
 # TensorBoard
 events.out.tfevents.*
 
+# Wandb
+wandb/
+
 # Data and data artifacts
 data/
 datasets/

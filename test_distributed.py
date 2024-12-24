@@ -29,15 +29,16 @@ tokenizer = AutoTokenizer.from_pretrained("microsoft/Phi-3.5-mini-instruct")
 from datasets import load_dataset
 from trl import SFTConfig, SFTTrainer, DataCollatorForCompletionOnlyLM
 
-dataset_path = "./all_judgements.json"
+dataset_path = "./all_judgements_phi.json"
 dataset = load_dataset("json", data_files=dataset_path, split="train")
 
 training_args = SFTConfig(packing=False,
-                          max_seq_length=3500,
+                          max_seq_length=3000,
                           per_device_train_batch_size=2,
-                          output_dir="./outputs/lora_model",
+                          output_dir="./outputs/phi_model",
                           bf16=True,
                           logging_steps=50,
+                          save_steps=250,
                           num_train_epochs=10,
                           gradient_accumulation_steps=4,
                           learning_rate=1e-5,
