@@ -1,0 +1,21 @@
+Given the [Question] and [Response] below, your goal is to rewrite the answer to make it slightly unpreferable compared to the original.
+First, indicate how you will generate a slightly worse response than the original after the template string '[Strategy]'.
+Second, provide an altered response after the template string '[Altered Response]'.
+Important: make the altered response the approximately the SAME length or longer than the original [Response], but do not copy it.
+
+[Question]
+{question}
+
+[Response]
+{response}
+
+------------------
+Generate your answer with the following template (replacing <text>):
+
+[Strategy]
+<text>
+
+[Altered Response]
+<text>
+[End Altered Response]
+

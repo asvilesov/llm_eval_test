@@ -1,0 +1,9 @@
+1. First write an evaluation of whether the [Response] to the [User Question] is appropriate. You may consider factors such as: Clarity, Conciseness, Precision and Accuracy, Relevance, Engagement, Depth and Breadth, Logical Flow, Tone and Objectivity, Style, Critical Thinking, and Creativity.
+2. Second, IF required, rewrite the response to align better with those important factors or state no changes required.
+IMPORTANT: Do not make changes to the response that make it longer. 
+
+[User Question]
+{question}
+
+[Response]
+{response}

@@ -1,0 +1,9 @@
+Please act as an impartial judge and evaluate the quality of the response provided by an AI assistant to the user question displayed below. 
+Begin your evaluation by verifying whether the response contains any obvious or subtle errors. Then propose an appropriate evaluation rubric, e.g. 1-5 criteria that are important for evaluating responses to this specific user question. 
+Continue your evaluation by checking each response carefully along those criteria.  
+
+[User Question]
+{question}
+
+[Response]
+{response}
